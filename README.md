@@ -1,4 +1,4 @@
---[TR]--
+**[TR]**
 
 Merhabalar,
 
@@ -9,7 +9,28 @@ Sonrasında bu DataTable'ı bir excele kaydediyor. Bu işlemleri "Teams" excelin
 
 Teşekkürler.
 
---[ENG]--
+--Robot Yolu--
+
+1. "Teams" exceli okunur ve DataTable olarak kaydedilir.
+2. Transfermarkt sitesi açılır.
+3. DataTable için For Each Row oluşturulur.
+4. Arama kısmına "Teams" excelinden alınan takım yazılır.
+5. Arama butonuna tıklanır.
+6. Aranan takıma tıklanır ve takım profiline girilir.
+7. Kadro kısmı DataTable olarak çıkartılır.
+8. İşlem yapılan takımın ismine göre dinamik excel yolu belirlenir.
+9. Belirlenen excel üzerine kadro için oluşturulan DataTable yazılır.
+10. Bu işlemler "Teams" excelinde bulunan tüm takımlar için For Each Row aktivitesi ile tekrarlanır.
+
+--"Teams" Excel Örneği--
+
+![image](https://github.com/user-attachments/assets/a96ff41b-efa9-4765-8da3-9ebd4ca384a5)
+
+--Çıktı Excel Örneği--
+
+![image](https://github.com/user-attachments/assets/ceb7c3e2-d2c9-4202-872a-c56669522e44)
+
+**[ENG]**
 
 Hello,
 
@@ -19,6 +40,19 @@ After accessing the team profile, it selects the values in the columns for numbe
 Next, it saves this DataTable to an Excel file. This process is repeated for as many teams as are listed in the "Teams" Excel, and the process is then completed.
 
 Thanks.
+
+--Robot Path--
+
+1. The "Teams" Excel file is read and saved as a DataTable.
+2. The Transfermarkt website is opened.
+3. A "For Each Row" loop is created for the DataTable.
+4. The team name from the "Teams" Excel file is entered into the search field.
+5. The search button is clicked.
+6. The searched team is clicked, and the team profile page is opened.
+7. The squad section is extracted as a DataTable.
+8. A dynamic Excel path is determined based on the name of the team being processed.
+9. The DataTable for the squad is written to the determined Excel file.
+10. These steps are repeated for all teams in the "Teams" Excel file using the "For Each Row" activity.
 
 --"Teams" Excel Example--
 
