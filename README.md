@@ -9,8 +9,6 @@ Sonrasında bu DataTable'ı bir excele kaydediyor. Bu işlemleri "Teams" excelin
 
 Teşekkürler.
 
---Robot Yolu--
-
 1. "Teams" exceli okunur ve DataTable olarak kaydedilir.
 2. Transfermarkt sitesi açılır.
 3. DataTable için For Each Row oluşturulur.
@@ -21,6 +19,10 @@ Teşekkürler.
 8. İşlem yapılan takımın ismine göre dinamik excel yolu belirlenir.
 9. Belirlenen excel üzerine kadro için oluşturulan DataTable yazılır.
 10. Bu işlemler "Teams" excelinde bulunan tüm takımlar için For Each Row aktivitesi ile tekrarlanır.
+
+--Robot Yolu--
+
+![image](https://github.com/user-attachments/assets/a606c56b-ca0d-4560-a16f-928764c1edba)
 
 --"Teams" Excel Örneği--
 
@@ -41,8 +43,6 @@ Next, it saves this DataTable to an Excel file. This process is repeated for as 
 
 Thanks.
 
---Robot Path--
-
 1. The "Teams" Excel file is read and saved as a DataTable.
 2. The Transfermarkt website is opened.
 3. A "For Each Row" loop is created for the DataTable.
@@ -53,6 +53,10 @@ Thanks.
 8. A dynamic Excel path is determined based on the name of the team being processed.
 9. The DataTable for the squad is written to the determined Excel file.
 10. These steps are repeated for all teams in the "Teams" Excel file using the "For Each Row" activity.
+
+--Robot Path--
+
+![image](https://github.com/user-attachments/assets/e71a8e7c-cd2a-4c35-831a-34a430bfca1b)
 
 --"Teams" Excel Example--
 
