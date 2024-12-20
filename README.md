@@ -2,22 +2,22 @@
 
 ## İçindekiler - Contents
 
-1. - TR -
-   - - Genel Açıklama -
-   - - Adım Adım Süreç -
-   - - Robot Yolu -
-   - - "Teams" Excel Örneği -
-   - - Çıktı Excel Örneği -
-2. - ENG -
-   - - General Description -
-   - - Step-by-Step Process -
-   - - Robot Path -
-   - - "Teams" Excel Example -
-   - - Output Excel Example -
+1. [TR](#tr)
+   - [Genel Açıklama](#genel-açıklama)
+   - [Adım Adım Süreç](#adım-adım-süreç)
+   - [Robot Yolu](#robot-yolu)
+   - ["Teams" Excel Örneği](#teams-excel-örneği)
+   - [Çıktı Excel Örneği](#çıktı-excel-örneği)
+2. [ENG](#eng)
+   - [General Description](#general-description)
+   - [Step-by-Step Process](#step-by-step-process)
+   - [Robot Path](#robot-path)
+   - ["Teams" Excel Example](#teams-excel-example)
+   - [Output Excel Example](#output-excel-example)
 
-## - TR -
+## [TR]
 
-### - Genel Açıklama -
+### Genel Açıklama
 
 Merhabalar,
 
@@ -28,7 +28,7 @@ Sonrasında bu DataTable'ı bir excele kaydediyor. Bu işlemleri "Teams" excelin
 
 Teşekkürler.
 
-### - Adım Adım Süreç -
+### Adım Adım Süreç
 
 1. "Teams" exceli okunur ve DataTable olarak kaydedilir.
 2. Transfermarkt sitesi açılır.
@@ -41,21 +41,21 @@ Teşekkürler.
 9. Belirlenen excel üzerine kadro için oluşturulan DataTable yazılır.
 10. Bu işlemler "Teams" excelinde bulunan tüm takımlar için For Each Row aktivitesi ile tekrarlanır.
 
-### - Robot Yolu -
+### Robot Yolu
 
 ![image](https://github.com/user-attachments/assets/a606c56b-ca0d-4560-a16f-928764c1edba)
 
-### - "Teams" Excel Örneği -
+### "Teams" Excel Örneği
 
 ![image](https://github.com/user-attachments/assets/a96ff41b-efa9-4765-8da3-9ebd4ca384a5)
 
-### - Çıktı Excel Örneği -
+### Çıktı Excel Örneği
 
 ![image](https://github.com/user-attachments/assets/ceb7c3e2-d2c9-4202-872a-c56669522e44)
 
-## - ENG -
+## [ENG]
 
-### - General Description -
+### General Description
 
 Hello,
 
@@ -66,7 +66,7 @@ Next, it saves this DataTable to an Excel file. This process is repeated for as 
 
 Thanks.
 
-### - Step-by-Step Process -
+### Step-by-Step Process
 
 1. The "Teams" Excel file is read and saved as a DataTable.
 2. The Transfermarkt website is opened.
@@ -79,14 +79,14 @@ Thanks.
 9. The DataTable for the squad is written to the determined Excel file.
 10. These steps are repeated for all teams in the "Teams" Excel file using the "For Each Row" activity.
 
-### - Robot Path -
+### Robot Path
 
 ![image](https://github.com/user-attachments/assets/e71a8e7c-cd2a-4c35-831a-34a430bfca1b)
 
-### - "Teams" Excel Example -
+### "Teams" Excel Example
 
 ![image](https://github.com/user-attachments/assets/a96ff41b-efa9-4765-8da3-9ebd4ca384a5)
 
-### - Output Excel Example -
+### Output Excel Example
 
 ![image](https://github.com/user-attachments/assets/ceb7c3e2-d2c9-4202-872a-c56669522e44)
